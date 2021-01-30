@@ -134,6 +134,6 @@ Output:
 Following is Breadth First Traversal (starting from vertex 2)
 2 0 3 1
 ```
-
+``Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.``
 
 # <center>The end</center>
