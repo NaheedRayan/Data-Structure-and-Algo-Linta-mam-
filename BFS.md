@@ -17,7 +17,7 @@ void bfs(int s)
     queue <int> q;
     q.push(s);
     
-	level[ s ] = 0 ;  //Setting the level of the source node as 0
+    level[ s ] = 0 ;  //Setting the level of the source node as 0
     vis[ s ] = true;
     while(!q.empty())
     {
@@ -32,7 +32,7 @@ void bfs(int s)
                 level[ v[p][i] ] = level[ p ]+1;                 
                 q.push(v[p][i]);
                 vis[ v[p][i] ] = true;
-    		}
+    	    }
         }
     }
 }
